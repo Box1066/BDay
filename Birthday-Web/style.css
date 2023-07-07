@@ -1,0 +1,90 @@
+#profile{
+    width: 150px;
+    border: 3px solid #8A64A9;
+    border-radius: 50%;
+}
+body{
+    font-family: 'Happy Monkey', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+    background: linear-gradient(#4682B4,#AA57A3);
+}
+h1, h2, h3{
+    text-shadow: 0 0 1px black;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.age{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px 8px 8px 4px;
+    background: #8A64A9;
+}
+.date{
+    margin-top: auto;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px 8px 8px 4px;
+    background: #8A64A9;
+}
+.gift-section{
+    margin-top: 40px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-img{
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+}
+.happy-head{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.hover-text{
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+#gift-img-happy:hover{
+    background-image: url("images/happy-cat.gif");
+    background-size: cover;
+    background-position: center;
+}
+#gift-img-hot:hover{
+    background-image: url("images/damn.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#gift-img-genius:hover{
+    background-image: url("images/joker.gif");
+    background-size: cover;
+    background-position: center;
+}
+#gift-img-badass:hover{
+    background-image: url("images/Ellie.gif");
+    background-size: cover;
+    background-position: center;
+}
+#gift-img-cheers{
+    height: 200px;
+}
+#gift-img-cheers:hover{
+    background-image: url("images/cheers.gif");
+}
+a:link{
+    color: white;
+}
+footer{
+    margin-top: 20px;
+}
